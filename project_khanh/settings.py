@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Newly added apps, created through: python manage.py startapp <name_app>
     'blog',
+    'django_extensions',
 ]
 
 MIDDLEWARE_CLASSES = [
