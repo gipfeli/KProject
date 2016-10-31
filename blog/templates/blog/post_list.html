@@ -1,20 +1,19 @@
 <html>
-    <head>
-        <title>Developements blog</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="">Testing site</a> by {{ me }} </h1>
-        </div>
-
-        <div>
-            {% for post in posts %}
-            	<div>
-            		<p> published: {{ post.published_date }}</p>
-            		<h2><a href="">{{ post.title }}</a></h2>
-            		<p>{{ post.text|linebreaksbr }}</p>
-          		</div>
-            {% endfor %}
-        </div>
-    </body>
+	<head>
+		<title>Developements blog</title>
+	</head>
+	<body>
+		<div>
+			<h1><a href="">Testing site</a> by {{ me }} </h1>
+		</div>
+		<div>
+			{% for post in posts %}
+				<div>
+					<p> published: {{ post.published_date }}</p>
+					<h2><a href="">{{ post.title }}</a></h2>
+					<p>{{ post.text|linebreaksbr }}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</body>
 </html>
