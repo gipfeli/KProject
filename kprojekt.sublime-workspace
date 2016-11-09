@@ -649,17 +649,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Gipfeli/Development/project_khanh"
+		"/Users/Gipfeli/Development/project_khanh",
+		"/Users/Gipfeli/Development/project_khanh/blog",
+		"/Users/Gipfeli/Development/project_khanh/blog/migrations",
+		"/Users/Gipfeli/Development/project_khanh/blog/static",
+		"/Users/Gipfeli/Development/project_khanh/blog/templates",
+		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog"
 	],
 	"file_history":
 	[
+		"/Users/Gipfeli/Development/project_khanh/blog/views.py",
+		"/Users/Gipfeli/Development/project_khanh/blog/urls.py",
+		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/post_detail.html",
+		"/Users/Gipfeli/Downloads/Praktikum_Biovertraeglichkeit.txt",
 		"/Users/Gipfeli/Dropbox/Dokument/LaTeX/Report(Labor)/PREN1/fahrwerk.tex",
 		"/Users/Gipfeli/Dropbox/Dokument/LaTeX/Report(Labor)/SESO/SESO1/Bericht.tex",
-		"/Users/Gipfeli/Development/project_khanh/blog/urls.py",
 		"/Users/Gipfeli/Dropbox/ddu3u6nbieug9u_20161021_134038.sql",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/base.html",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/post_list.html",
-		"/Users/Gipfeli/Development/project_khanh/blog/views.py",
 		"/Users/Gipfeli/Development/project_khanh/project_khanh/urls.py",
 		"/Users/Gipfeli/Development/project_khanh/blog/static/css/blog.css",
 		"/Users/Gipfeli/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
@@ -778,9 +785,7 @@
 		"/Users/Gipfeli/Dropbox/Dokument/LaTeX/Zusammenfassung/Chem_sum.tex",
 		"/Users/Gipfeli/Development/PythonHardcore/ex2.py",
 		"/Users/Gipfeli/Development/Python/mysite/manage.py",
-		"/Users/Gipfeli/Development/Python/mysite/polls/templates/polls/index.html",
-		"/Users/Gipfeli/Development/Python/mysite/polls/views.py",
-		"/Users/Gipfeli/Development/Python/mysite/polls/templates/polls/detail.html"
+		"/Users/Gipfeli/Development/Python/mysite/polls/templates/polls/index.html"
 	],
 	"find":
 	{
