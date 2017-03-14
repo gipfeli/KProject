@@ -652,12 +652,12 @@
 		"/Users/Gipfeli/Development/project_khanh",
 		"/Users/Gipfeli/Development/project_khanh/blog",
 		"/Users/Gipfeli/Development/project_khanh/blog/migrations",
-		"/Users/Gipfeli/Development/project_khanh/blog/static",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog"
 	],
 	"file_history":
 	[
+		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/post_list.html",
 		"/Users/Gipfeli/Development/project_khanh/blog/views.py",
 		"/Users/Gipfeli/Development/project_khanh/blog/urls.py",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/post_detail.html",
@@ -666,7 +666,6 @@
 		"/Users/Gipfeli/Dropbox/Dokument/LaTeX/Report(Labor)/SESO/SESO1/Bericht.tex",
 		"/Users/Gipfeli/Dropbox/ddu3u6nbieug9u_20161021_134038.sql",
 		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/base.html",
-		"/Users/Gipfeli/Development/project_khanh/blog/templates/blog/post_list.html",
 		"/Users/Gipfeli/Development/project_khanh/project_khanh/urls.py",
 		"/Users/Gipfeli/Development/project_khanh/blog/static/css/blog.css",
 		"/Users/Gipfeli/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
@@ -958,7 +957,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 162.0,
+	"side_bar_width": 149.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
