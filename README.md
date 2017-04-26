@@ -16,21 +16,9 @@ Please wait for a bit more...
 
 First, install [Flyway by BoxFuse](https://flywaydb.org). 
 
-## Deployment to Heroku
+Then use the `flyway migrate` (Check the flyway.conf first), to create the schemas and insert basic infromation (Swiss Insurance companies, Tessiner Code/ICD-10, PLZ, etc.)
 
-    $ git init
-    $ git add -A
-    $ git commit -m "Initial commit"
+## Running program
 
-    $ heroku create
-    $ git push heroku master
+Please wait ...
 
-    $ heroku run python manage.py migrate
-
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
-
-## Further Reading
-
-- [Gunicorn](https://warehouse.python.org/project/gunicorn/)
-- [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
-- [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
