@@ -18,7 +18,9 @@ First, install [Flyway by BoxFuse](https://flywaydb.org).
 
 Then use the `flyway migrate` (Check the flyway.conf first), to create the schemas and insert basic infromation (Swiss Insurance companies, Tessiner Code/ICD-10, PLZ, etc.)
 
-## Running program
+Then running `XMLParser.py`(with HIN Client runnning in background), and type the card number in.
 
-Please wait ...
+## TODO
 
+- Add medicine list
+- Add TARMED dataset
