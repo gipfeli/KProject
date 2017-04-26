@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<invoice:request xmlns:ds="http://ww.w3.org/2000/09/xmldsig#" xmlns:invoice="http://www.forum-dataenaustausch.ch/invoice" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.forum-datenaustausch.ch/invoice generalIInvoiceRequest_430.xsd" language="de" modus="production">
+  <invoice:processing>
+    <invoice:transport from="123" to="456">
+      <invoice:via sequence_id="1" via="76010013002041"/>
+    </invoice:transport>
+  </invoice:processing>
+  <invoice:payload copy="0" storno="0" type="invoice">
+    <invoice:invoice request_date="2017-03-11T00:00:00" request_id="12345" request_timestamp="1489232677"/>
+    <invoice:body place="practice" role="physician">
+      <invoice:prolog>
+        <invoice:generator description="10.0" name="Tran Arztpraxis"/>
+      </invoice:prolog>
+      <invoice:balance amount="108.30" amount_due="108.30" ammount_obligations="108.28" amount_prepaid="0.00" currency="CHF">
+        <invoice:vat vat="0.90" vat_number="CHE-498.574.166">
+          <invoice:var_rate amount="70.5" vat="0" vat_rate="0"/>
+          <invoice:var_rate amount="0.00" vat="0.00" vat_rate="0"/>
+          <invoice:var_rate amount="0.90" vat="37.80" vat_rate="2.5"/>
+        </invoice:vat>
+      </invoice:balance>
+      <invoice:esr9 coding_line="0100000201055&gt;000000001103170023685008538+ 010961277" participant_numer="01-96127-7" reference_number="00 00000 01103 17002 36850 08538" type="16or27">
+        <invoice:bank>
+          <invoice:company>
+            <invoice:companyname>Postfinance</invoice:companyname>
+            <invoice:postal>
+              <invoice:street>Mingerstrasse 20</invoice:street>
+              <invoice:zip countrycode="CH">3000</invoice:zip>
+              <invoice:city>Bern</invoice:city>
+            </invoice:postal>
+          </invoice:company>
+        </invoice:bank>
+      </invoice:esr9>
+      <invoice:tiers_payant>
+        <invoice:biller ean_party="760100717795" zsr="M073503">
+          <invoice:company>
+            <invoice:companyname>Tran Arztpraxis</invoice:companyname>
+            <invoice:postal>
+              <invoice:street>Zügholzstasse 2</invoice:street>
+              <invoice:zip countrycode="CH">6252</invoice:zip>
+              <invoice:city>Dagmersellen</invoice:city>
+            </invoice:postal>
+          </invoice:company>
+        </invoice:biller>
+        <invoice:provider ean_party="760100717795" zsr="M073503">
+          <invoice:company>
+            <invoice:companyname>Tran Arztpraxis</invoice:companyname>
+            <invoice:postal>
+              <invoice:street>Zügholzstasse 2</invoice:street>
+              <invoice:zip countrycode="CH">6252</invoice:zip>
+              <invoice:city>Dagmersellen</invoice:city>
+            </invoice:postal>
+          </invoice:company>
+        </invoice:provider>
+        <invoice:insurance ean_party="7601003002041">
+          <invoice:company>
+            <invoice:companyname>SWICA Gesundheitsorganisation inkl.</invoice:companyname>
+            <invoice:postal>
+              <invoice:street>Roemerstrasse 38</invoice:street>
+              <invoice:zip countrycode="CH">8401</invoice:zip>
+              <invoice:city>Winterthur</invoice:city>
+            </invoice:postal>
+          </invoice:company>
+        </invoice:insurance>
+        <invoice:patient>
+          <invoice:person>
+            <invoice:familyname>Plaue</invoice:familyname>
+            <invoice:givenname>Anita</invoice:givenname>
+            <invoice:postal>
+              <invoice:street>Feldmatte 2</invoice:street>
+              <invoice:zip countrycode="CH">6252</invoice:zip>
+              <invoice:city>Dagmersellen</invoice:city>
+            </invoice:postal>
+          </invoice:person>
+        </invoice:patient>
+        <invoice:guarantor>
+          <invoice:company>
+            <invoice:companyname>SWICA Gesundheitsorganisation inkl.</invoice:companyname>
+            <invoice:postal>
+              <invoice:street>Roemerstrasse 38</invoice:street>
+              <invoice:zip countrycode="CH">8401</invoice:zip>
+              <invoice:city>Winterthur</invoice:city>
+            </invoice:postal>
+          </invoice:company>
+        </invoice:guarantor>
+      </invoice:tiers_payant>
+      <invoice:kvg case_id="1384" insured_id="1384"/>
+      <invoice:treatement canton="LU" date_begin="2017-02-03T00:00:00" date_end="2017-02-03T00:00:00" reason="disease">
+        <invoice:diagnosis type="freetext">H9</invoice:diagnosis>
+      </invoice:treatement>
+      <invoice:services>
+        <invoice:record_drug amount="17.25" code="2128767" date_begin="2017-02-03T00:00:00" external_factor="1" name="NORSOL Tabl 400 mg 14 Stk" obligation="true" provider_id="7601000717795" quantity="1" record_id="1" responsible_id="7601000717795" session="1" tariff_type="400" unit="17.25" unit_factor="1" validate="true" rate="2.5"/>
+        <invoice:record_tarmed amount="14.56" amount_mt="7.85" amount_tt="6.72" billing_role="both" body_location="none" code="00.0010" date_begin="2017-02-03T00:00:00" external_factor_mt="1" external_factor_tt="1" medical_role="self_employed" name="Konsultation, erste 5 Min. (Grundkonsultation)" obligation="true" provider_id="7601000717795" quantity="1" record_id="2" responsible_id="7601000717795" scale_factor_mt="1" scale_factor_tt="1" session="1" tariff_type="001" unit_factor_mt="0.82" unit_factor_tt="0.82" unit_mt="9.57" unit_tt="8.19" validate="true" vat_rate="0"/>
+        <invoice:record_tarmed amount="8.20" amount_mt="8.20" amount_tt="0.00" billing_role="both" body_location="none" code="00.0015" date_begin="2017-02-03T00:00:00" external_factor_mt="1" external_factor_tt="1" medical_role="self_employed" name="+ Zuschlag für hausärztliche Leistungen in der Arz" obligation="true" provider_id="7601000717795" quantity="1" record_id="3" responsible_id="7601000717795" scale_factor_mt="1" scale_factor_tt="1" session="1" tariff_type="001" unit_factor_mt="0.82" unit_factor_tt="0.82" unit_mt="10.00" unit_tt="0.00" validate="true" vat_rate="0"/>
+        <invoice:record_tarmed amount="7.28" amount_mt="3.92" amount_tt="3.36" billing_role="both" body_location="none" code="00.0030" date_begin="2017-02-03T00:00:00" external_factor_mt="1" external_factor_tt="1" medical_role="self_employed" name="+ Konsultation, letzte 5 Min. (Konsultationszuschl" obligation="true" provider_id="7601000717795" quantity="1" record_id="4" responsible_id="7601000717795" scale_factor_mt="1" scale_factor_tt="1" session="1" tariff_type="001" unit_factor_mt="0.82" unit_factor_tt="0.82" unit_mt="4.78" unit_tt="4.10" validate="true" vat_rate="0"/>
+        <invoice:record_lab amount="5.20" code="1740" date_begin="2017-02-03T00:00:00" external_factor="1" name="Urin-Teilstatus, 5-10 Parameter" obligation="true" provider_id="7601000717795" quantity="1" record_id="5" responsible_id="7601000717795" session="1" tariff_type="317" unit="5.20" unit_factor="1" validate="true" vat_rate="0"/>
+        <invoice:record_drug amount="20.25" code="6475164" date_begin="2017-02-10T00:00:00" external_factor="1" name="CIPROFLAX Filmtabl 500mg 10 Stk" obligation="true" provider_id="7601000717795" quantity="1" record_id="6" responsible_id="7601000717795" session="1" tariff_type="400" unit="20.25" unit_factor="1" validate="true" rate="2.5"/>
+      </invoice:services>
+    </invoice:body>
+  </invoice:payload>
+</invoice:request>

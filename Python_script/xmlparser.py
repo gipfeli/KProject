@@ -31,7 +31,7 @@ def getdatafromURL():
 
 # Prepare data
 def preparedata():
-    soup = getdatafromlocal()
+    soup = getdatafromURL()
     data = {
        "KK-Nummer": soup.client.attrs['insuredpersonnumber'],
        "AHV-Nummer": soup.client.attrs['cardholderidentifier'],
@@ -48,7 +48,7 @@ def preparedata():
 def insertpatient():
     
     sql =   """
-            INSERT INTO patient (vorname,nachname,geschlecht,geburtstag,contact_id,kk_nummer,ahv_nummer) 
+            INSERT INTO patient (vorname,nachname,geschlecht,geburtstag,adresse_id,kk_nummer,ahv_nummer) 
             VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING patient_id
             """
     return sql;
@@ -58,7 +58,7 @@ def insertaddress():
     
     sql =   """
             INSERT INTO adressebuch (adresse, plz) 
-            VALUES (%s,%s) RETURNING contact_id
+            VALUES (%s,%s) RETURNING adresse_id
             """
     return sql;
 
@@ -78,16 +78,16 @@ def connect():
         print(db_version)
         
         cur.execute(sql1, (data['Adresse'], data['PLZ']))
-        contact_id = cur.fetchone()
+        adresse_id = cur.fetchone()
         
         cur.execute(sql2, (data['Vorname'],data['Nachname'],data['Geschlecht'], 
-                               data['Geburtstag'],contact_id, data['KK-Nummer'], data['AHV-Nummer']))
+                               data['Geburtstag'],adresse_id, data['KK-Nummer'], data['AHV-Nummer']))
         patient_id = cur.fetchone()
         conn.commit()
         
         print('Patient ID: ', patient_id)
         
-        print('Contact ID: ', contact_id)
+        print('Adresse ID: ', adresse_id)
         
         cur.close()
 

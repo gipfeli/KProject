@@ -1,0 +1,107 @@
+Typ;Code;Bezeichnung
+TI;A1;Kardiale Vitien / Herzklappen
+TI;A2;Erkrankungen der Herzkranzgefässe/Myokardinfarkt
+TI;A3;Herz - Rhythmusstörungen
+TI;A4;Hypertonie
+TI;A5;Arterien
+TI;A6;Venen (inkl. Varizen)
+TI;A7;Lymphgefässe inkl. Lymphoedem
+TI;A9;Andere Erkrankungen des Herz- / Kreislaufsystems
+TI;B1;Anämie
+TI;B2;Gerinnungsstörungen
+TI;B3;Erkrankungen des Knochenmarks und des Blutes
+TI;B4;Milz / Lymphknoten / Immunsystem
+TI;B9;Andere Erkrank. von Knochenmark / Blut / Milz
+TI;C1;Asthma
+TI;C2;Chronischer Husten
+TI;C3;Lungenembolie
+TI;C4;Lunge / Pleura exkl. TBC
+TI;C9;Andere Erkrankungen des Atemtraktes
+TI;D1;Muskel / Sehnen
+TI;D2;Gelenke / Bänder / Bursa exkl. D3
+TI;D3;Arthritis / M. Bechterew
+TI;D4;Arthrose
+TI;D5;Wirbelsäule exkl. D3
+TI;D9;Andere Erkrankungen des Bewegungsapparates
+TI;E1;Oesophagus / Magen / Duodenum, inkl. Ulcera
+TI;E2;Darm (Dünndarm / Kolon)
+TI;E3;Rektum / Anus, inkl. Hämorrhoiden
+TI;E4;Leber / Gallenwege / Gallenblase
+TI;E5;Pankreas, exkl. Diabetes
+TI;E6;Zwerchfell
+TI;E7;Hernien
+TI;E9;Andere Erkrankungen des Verdauungstraktes
+TI;F1;Zuckerstoffwechsel
+TI;F2;Erkrankungen der Schilddrüse
+TI;F9;Andere Stoffwechselerkrankungen
+TI;G1;Komplikationsloser Infekt
+TI;G2;Tuberkulose
+TI;G3;Virale Hepatitis
+TI;G9;Andere infektiöse oder parasitäre Krankheiten
+TI;H1;Niere / Niereninsuffizienz (Dialyse / Transplantation)
+TI;H2;Nierensteinleiden
+TI;H3;Ableitende Harnwege
+TI;H9;Andere Erkrankungen der Nieren und der ableitenden Harnwege
+TI;I1;Männliche Geschlechtsorgane
+TI;I2;Vulva, Vagina, kleines Becken
+TI;I3;Uterus
+TI;I4;Adnexe
+TI;I5;Störungen des Menstruations - Zyklus
+TI;I6;Erkrankungen der Brustdrüse
+TI;I7;Sterilisation
+TI;I9;Andere Erkrankungen der Geschlechtsorgane
+TI;K1;Schwangerschaft normales Risiko
+TI;K2;Schwangerschaft mit Komplikation
+TI;K3;Sterilität und künstliche Befruchtung
+TI;L1;Hirn / Rückenmark
+TI;L2;Periphere Nerven
+TI;L3;Lähmung / Ataxie
+TI;L4;Migräne und Äquivalente
+TI;L5;Epilepsie
+TI;L9;Andere Erkrankungen des Nervensystems
+TI;M1;Schlafstörungen
+TI;M2;Psychische Erkrankungen
+TI;M3;Psychoorganische Erkrankungen
+TI;N1;Allergische Hauterkrankungen, exkl. Ekzem
+TI;N2;Entzündliche / infektiöse Hautkrankheiten
+TI;N3;Ekzem
+TI;N4;Vaskuläre / degenerative Hautkrankheiten
+TI;N5;Psoriasis / Hyperkeratosen
+TI;N6;Narben
+TI;N9;Andere Hauterkrankungen
+TI;O1;Nase exkl. N6
+TI;O2;Nasennebenhöhlen
+TI;O3;Mundhöhle, Speicheldrüsen
+TI;O4;Tonsillen / Adenoide
+TI;O5;Larynx / Trachea
+TI;O6;Missbildungen der Nase und der Ohren
+TI;O7;Mittelohr / Tuba Eustachii
+TI;O8;Innenohr
+TI;O9;Andere HNO - Erkrankungen
+TI;P1;Lid / Konjuktiva
+TI;P2;Linse / Kornea / Glaskörper
+TI;P3;Iris / Glaukom
+TI;P4;Retina / Sehnerv / Gefässe
+TI;P5;Augenmuskeln / Strabismus
+TI;P9;Andere Augenerkrankungen
+TI;Q1;Zyste
+TI;Q2;Zahnabszess
+TI;Q3;Fibrome
+TI;Q9;Andere Erkrankungen des Kiefers oder der Zähne
+TI;R1;Kopf / Wirbelsäule
+TI;R2;Thorax
+TI;R3;Abdomen
+TI;R4;Obere Extremität
+TI;R5;Untere Extremität
+TI;S;Nicht-Pflichtleistungen
+TI;T1;Vorsorgeuntersuchung
+TI;T2;Impfungen
+TI;U;Vertrauensarzt orientiert (anstelle Diagnose)
+TI;01;Rechts
+TI;02;Links
+TI;03;Akut
+TI;04;Chronisch / Rezidiv
+TI;05;Infektiös
+TI;06;Funktionell
+TI;07;Neoplasie
+TI;08;Berufsbedingt

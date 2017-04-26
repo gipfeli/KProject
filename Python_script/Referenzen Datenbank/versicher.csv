@@ -1,0 +1,96 @@
+organisation;departement;address1;address2;zipcode;city;phone;insuranceLink;email;insuranceGLN;recepientGLN;XMLInsuranceName;lawCode;TP_elektronisch;changebillingtypedesc;mediportstatusdesc
+Aargauische Gebäudeversicherung (AGV);;Bleichemattstrasse 12/14;Postfach;5001;Aarau;0848 836 800;www.agv-ag.ch;unfall@agv-ag.ch;7.601E+12;7.601E+12;Aargauische Gebäudeversicherung;UVG;Ja;X;an MediPort angeschlossen
+Agrisano Krankenkasse AG;;Laurstrasse 10;;5201;Brugg;056 461 71 11;www.agrisano.ch;daten@agrisano.ch;7.601E+12;7.601E+12;Agrisano;KVG;Ja;Ja;an MediPort angeschlossen
+Agrisano Krankenkasse AG (UVG);;Laurstrasse 10;;5201;Brugg;056 461 71 11;www.agrisano.ch;daten@agrisano.ch;7.601E+12;7.601E+12;Agrisano Krankenkasse ;UVG;Ja;X;an MediPort angeschlossen
+Allianz Suisse;;;Postfach;8010;Zürich;058 358 71 11;www.allianz-suisse.ch;contact@allianz-suisse.ch;7.601E+12;7.601E+12;Allianz Suisse;UVG;Ja;X;an MediPort angeschlossen
+AMB Assurances;;Route de Verbier 13;;1934;Le Châble;058 758 60 70;www.amb-assurance.ch;info@amb-assurance.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Amt für Gesundheit;;Aeulestrasse 51;;9490;Vaduz;+423 236 73 40;;derya.kesci@llv.li;7.601E+12;7.601E+12;Amt für Gesundheit;KVG;Ja;Ja;an MediPort angeschlossen
+Aquilana Versicherungen;;Bruggerstrasse 46;Postfach;5401;Baden;056 203 44 44;www.aquilana.ch;edi_auftraege@centrisag.ch;7.601E+12;7.601E+12;Aquilana Versicherungen;KVG;Ja;Ja;an MediPort angeschlossen
+Arcosana;;Tribschenstrasse 21;;6002;Luzern;058 277 11 11;www.css.ch/edi;projekte.edi@css.ch;7.601E+12;7.601E+12;Arcosana;KVG;Ja;Ja;an MediPort angeschlossen
+Assura-Basis SA;;Case Postale 9;;1052;Le Mont-Sur-Lausanne;0842 277 872;www.assura.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;Assura;KVG;Ja;Nein;an MediPort angeschlossen
+Atupri Gesundheitsversicherung;;Zieglerstrasse 29;;3000;Bern 65;031 555 09 11;www.atupri.ch;franziska.zumbrunnen@atupri.ch;7.601E+12;7.601E+12;Atupri;KVG;Ja;Ja;an MediPort angeschlossen
+Avenir Krankenversicherung AG;;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Avenir Krankenversicherung AG (Unfall);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;UVG;Ja;X;an MediPort angeschlossen
+AXA Winterthur;;General Guisan-Strasse 40;Postfach 357;8401;Winterthur;058 215 28 96;www.axa-winterthur.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;AXA Winterthur;UVG;Ja;X;an MediPort angeschlossen
+Basler Versicherung;;Aeschengraben 21;Postfach 176;4002;Basel;061 285 85 85;www.baloise.ch;ukschaden@baloise.ch;7.601E+12;7.601E+12;Basler Versicherung;UVG;Ja;X;an MediPort angeschlossen
+Branchen Versicherung Schweiz;;Sihlquai 255;Postfach;8031;Zürich;044 267 61 61;www.branchenversicherung.ch;info@branchenversicherung.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Caisse-maladie Vallée d'Entremont;;Place Centrale 5;Case postale 13;1937;Orsières;027 783 25 87;www.cmveo.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Cassa da malsauns Lumneziana;;Postfach 41;;7144;Vella;081 931 35 35;www.lumneziana.ch;info@lumneziana.ch;7.601E+12;7.601E+12;Cassa da malsauns Lumneziana;KVG;Ja;Ja;an MediPort angeschlossen
+Compact Grundversicherungen AG;;Jägergasse 3;Postfach 2010;8021;Zürich;0844 11 00 11;www.sanitas.com;HIN.Inbox-partner@swisscom.com;7.601E+12;7.601E+12;Sanitas;KVG;Ja;Ja;an MediPort angeschlossen
+CONCORDIA Krankenversicherung inkl. FL;;Bundesplatz 15;Postfach;6002;Luzern;041 228 01 11;www.concordia.ch/de/concordia/leistungserbringer.html;elektronischer.datenaustausch@concordia.ch;7.601E+12;7.601E+12;CONCORDIA;KVG;Ja;Ja;an MediPort angeschlossen
+CONCORDIA Unfallversicherung;;Bundesplatz 15;Postfach;6002;Luzern;041 228 01 11;www.concordia.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;CONCORDIA;UVG;Ja;X;an MediPort angeschlossen
+CSS Unfallversicherung AG;;Tribschenstrasse 21;Postfach 2568;6002;Luzern;058 277 11 11;www.css.ch;css.info@css.ch;7.601E+12;7.601E+12;CSS Unfallversicherung AG;UVG;Ja;X;an MediPort angeschlossen
+CSS Versicherung;;Tribschenstrasse 21;Postfach 2568;6002;Luzern;058 277 11 11;www.css.ch/edi;projekte.edi@css.ch;7.601E+12;7.601E+12;CSS Versicherung;KVG;Ja;Ja;an MediPort angeschlossen
+Easy Sana Krankenversicherung AG;;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Easy Sana Krankenversicherung AG (Unfall);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;UVG;Ja;X;an MediPort angeschlossen
+EGK-Gesundheitskasse;;Brislachstrasse 2;Postfach;4242;Laufen;061 765 51 11;www.egk.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;EGK-Gesundheitskasse;KVG;Ja;Ja;an MediPort angeschlossen
+Elips Life;;Landstrasse 40;;9495;Triesen;00423 239 95 55;www.elipslife.com;kontakt@elipslife.com;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+FKB - Die liechtensteinische Gesundheitskasse;;Gagoz 75;Postfach 363;9496;Balzers;+423 388 19 90;www.fkb.li;info@fkb.li;7.601E+12;7.601E+12;FKB;KVG;Ja;Ja;an MediPort angeschlossen
+GALENOS;Kranken-und Unfallversicherung;Militärstrasse 36;Postfach;8023;Zürich;044 245 88 88;www.galenos.ch;info@galenos.ch;7.601E+12;7.601E+12;Galenos;KVG;Ja;Ja;an MediPort angeschlossen
+Gemeinsame Einrichtung KVG;;Gibelinstrasse 25;Postfach;4503;Solothurn;032 625 30 30;www.kvg.org;;7.601E+12;7.601E+12;Gemeinsame Einrichtung KVG;KVG;Ja;Ja;an MediPort angeschlossen
+Generali;Assurances Générales SA;Avenue Perdtemps 23;Case postale 3300;1260;Nyon 1;058 471 04 04;www.generali.ch;info@generali.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Glarner Krankenversicherung;;Sernftalstrasse 33;Postfach;8762;Schwanden;055 642 25 25;www.glkv.ch;thomas.allenspach@glkv.ch;7.601E+12;7.601E+12;Glarner Krankenversicherung;KVG;Ja;Ja;an MediPort angeschlossen
+Groupe Mutuel Versicherungen GMA AG (Krankheit Zusatz);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;VVG ;Ja;X;an MediPort angeschlossen
+Groupe Mutuel Versicherungen GMA AG (Unfall Zusatz);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;VVG ;Ja;X;an MediPort angeschlossen
+HDI Global SE;;Dufourstrasse 46;;8008;Zürich;044 265 47 47;www.hdi.global;onlineservice@hdi.global.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Helsana Versicherungen AG;;Postfach;;8081;Zürich;;www.helsana.ch/de/fuer_leistungserbringer/elektronischer_datenaustausch/;eda.privatkunden@helsana.ch;7.601E+12;7.601E+12;Helsana Versicherungen AG;UVG;Ja;X;an MediPort angeschlossen
+Helsana Versicherungen AG (inkl. Avanex);;Postfach;;8081;Zürich;;www.helsana.ch/de/leistungserbringer/themen/elektronischer-datenaustausch;eda.privatkunden@helsana.ch;7.601E+12;7.601E+12;Helsana Versicherungen AG;KVG;Ja;Ja;an MediPort angeschlossen
+Helvetia Versicherungen;;Wuhrmattstrasse 19;;4103;Bottmingen;058 280 10 00;www.helvetia.ch;info@helvetia.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Hotela Unfallversicherung;;Rue de la Gare 18;;1820;Montreaux;021 962 49 49;www.hotela.ch;welcome@hotela.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+HPR SA;;Route de Thonon 63;;1222;Vésenaz;022 308 86 82;www.hpr-groupe.ch;info@swissriskcare.ch;7.601E+12;7.601E+12;HPR;KVG;Ja;Ja;an MediPort angeschlossen
+Intras Kranken-Versicherung AG;;Tribschenstrasse 21;Postfach 2568;6002;Luzern;058 277 11 11;www.css.ch/edi;projekte.edi@css.ch;7.601E+12;7.601E+12;Intras;KVG;Ja;Ja;an MediPort angeschlossen
+Invalidenversicherung IV;(alle IV-Stellen, Zentrale Ausgleichsstelle);av. Edmond-Vaucher 18;;1203;Genève;022 795 91 11;www.admin.ch/zas;juri.mengon@zas.admin.ch;7.601E+12;7.601E+12;Centrale de compensation (ZAS);IVG;Ja;X;an MediPort angeschlossen
+KLuG Krankenversicherung;;Gubelstrasse 22;Postfach;6300;Zug;041 724 32 78;www.klug.ch;peter.odermatt@klug.ch;7.601E+12;7.601E+12;KLUG;KVG;Ja;Ja;an MediPort angeschlossen
+kmu-Krankenversicherung;;Bachtelstrasse 5;Postfach 1;8410;Winterthur (ZH);052 229 12 60;www.kmu-kv.ch;le-anbindung@centrisag.ch;7.601E+12;7.601E+12;kmu-Krankenversicherung;KVG;Ja;Ja;an MediPort angeschlossen
+Kolping Krankenkasse;;Wallisellenstrasse 55;Postfach 198;8600;Dübendorf;044 824 80 80;www.mykolping.ch;info@mykolping.ch;7.601E+12;7.601E+12;Kolping Krankenkasse;KVG;Ja;Ja;an MediPort angeschlossen
+KPT/CPT;Krankenkasse;Tellstrasse 18;Postfach 8624;3001;Bern;058 310 91 11 ;www.kpt.ch;kpt@kpt.ch;7.601E+12;7.601E+12;KPT/CPT;KVG;Ja;Ja;an MediPort angeschlossen
+Kranken- und Unfallkasse Einsiedeln;;Hauptstrasse 61;Postfach 57;8840;Einsiedeln;055 412 23 18;www.kkeinsiedeln.ch;urs.kaelin@kkeinsiedeln.ch;7.601E+12;7.601E+12;Bezirkskrankenkasse Einsiedeln;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenkasse Birchmeier;;Hauptstrasse 22;;5444;Künten;056 485 60 40;www.kkbirchmeier.ch;ida.staffelbach@kkbirchmeier.ch;7.601E+12;7.601E+12;Krankenkasse Birchmeier;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenkasse Institut Ingenbohl;;Klosterstrasse 10;;6440;Brunnen;041 825 22 37;;krankenkasse@kloster-ingenbohl.ch;7.601E+12;7.601E+12;Krankenkasse Institut Ingenbohl;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenkasse Luzerner Hinterland;;Luzernstrasse 19;;6144;Zell;041 989 70 00;www.kklh.ch;marco.gervasi@kklh.ch;7.601E+12;7.601E+12;Krankenkasse Luzerner Hinterland;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenkasse Simplon;;Blatt;;3907;Simplon-Dorf;027 971 13 22;;kk.simplondorf@rhone.ch;7.601E+12;7.601E+12;Krankenkasse Simplon;KVG;Ja;Nein;an MediPort angeschlossen
+Krankenkasse SLKK;;Hofwiesenstrasse 370;Postfach;8050;Zürich;044 368 70 30;www.slkk.ch;info@slkk.ch;7.601E+12;2.1E+12;MediPort Druckcenter;KVG;Nein;Nein;nicht an MediPort angeschlossen
+Krankenkasse Steffisburg;;Unterdorfstrasse 37;Postfach 138;3612;Steffisburg;033 439 40 20;www.kkst.ch;info@kkst.ch;7.601E+12;7.601E+12;Krankenkasse Steffisburg;KVG;Ja;Nein;an MediPort angeschlossen
+Krankenkasse Stoffel Mels;;Bahnhofstrasse 63;;8887;Mels;081 723 56 09;www.kkstoffel.ch;info@kkstoffel.ch;7.601E+12;7.601E+12;Krankenkasse Stoffel Mels;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenkasse Turbenthal;;Tösstalstrasse 147;;8488;Turbenthal;052 385 33 65;;;7.601E+12;2.1E+12;MediPort Druckcenter;KVG;Nein;Nein;nicht an MediPort angeschlossen
+Krankenkasse Visperterminen;;Wierastrasse;;3932;Visperterminen;027 948 00 50;www.kkv.ch;kkv@vispterterminen.ch;7.601E+12;7.601E+12;Krankenkasse Visperterminen;KVG;Ja;Nein;an MediPort angeschlossen
+Krankenkasse Wädenswil;;Schönenbergstrasse 28;;8820;Wädenswil;043 477 71 71;www.kkwaedenswil.ch;info@kkwaedenswil.ch;7.601E+12;7.601E+12;Krankenkasse Wädenswil;KVG;Ja;Ja;an MediPort angeschlossen
+Krankenversicherung Flaachtal;;Bahnhofstrasse 22;Postfach;8180;Bülach;058 456 17 82;www.kv-flaachtal.ch;buelach@kv-flaachtal.ch;7.601E+12;7.601E+12;Krankenversicherung Flaachtal;KVG;Ja;Ja;an MediPort angeschlossen
+Lloyd's;Versicherer London;Seefeldstrasse 7;;8008;Zürich;044 261 33 10;www.lloyds.com;;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Militärversicherung;;Laupenstrasse 11;;3001;Bern;041 419 61 76;;kornel.roesch@suva.ch;7.601E+12;7.601E+12;Suva Militärversicherung;MVG;Ja;X;an MediPort angeschlossen
+Moove Sympany;;Jupiterstrasse 15;Postfach 234;3000;Bern 15;031 940 28 28;www.moovesympany.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;Moove Sympany;KVG;Ja;Nein;an MediPort angeschlossen
+Mutuel Krankenversicherung AG;;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Mutuel Krankenversicherung AG (Unfall);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;UVG;Ja;X;an MediPort angeschlossen
+Mutuel Versicherungen AG ( Krankheit Zusatz);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;VVG ;Ja;X;an MediPort angeschlossen
+Mutuel Versicherungen AG (Unfall-Zusatz);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;VVG ;Ja;X;an MediPort angeschlossen
+Nationale Suisse;;Steinengraben 41;Postfach;4003;Basel;061 275 21 11;www.nationalesuisse.ch;;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+ÖKK Kranken- und Unfallversicherungen AG [KVG];;Bahnhofstrasse 13;;7302;Landquart;058 456 10 10;www.oekk.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;ÖKK Kranken- und Unfallversicherungen AG [KVG];KVG;Ja;Ja;an MediPort angeschlossen
+ÖKK Kranken- und Unfallversicherungen AG [UVG];;Bahnhofstrasse 13;;7302;Landquart;058 456 10 10;www.oekk.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;ÖKK Kranken- und Unfallversicherungen AG [UVG];UVG;Ja;X;an MediPort angeschlossen
+Philos Krankenversicherung AG;;Rue des Cèdres 5;;1919;Martigny;021 802 89 89;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Philos Krankenversicherung AG (Unfall);;Rue des Cèdres 5;;1919;Martigny;0848 80 31 11;www.groupemutuel.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;UVG;Ja;X;an MediPort angeschlossen
+Progrès Versicherungen AG (inkl. Sansan);;Postfach;;8081;Zürich;;www.helsana.ch/de/leistungserbringer/themen/elektronischer-datenaustausch;eda.privatkunden@helsana.ch;7.601E+12;7.601E+12;Helsana Versicherungen AG;KVG;Ja;Ja;an MediPort angeschlossen
+PROVITA Gesundheitsversicherung AG;;Römerstrasse 38;;8401;Winterthur;052 244 22 33;www.swica.ch;guido.liersch@swica.ch;7.601E+12;7.601E+12;Swica;KVG;Ja;Ja;an MediPort angeschlossen
+rhenusana;;Heinrich-Wild-Strasse 210;;9435;Heerbrugg;071 727 88 00;www.rhenusana.ch;info@rhenusana.ch;7.601E+12;7.601E+12;rhenusana;KVG;Ja;Ja;an MediPort angeschlossen
+sana24;;Weltpoststrasse 19;;3000;Bern 15;031 357 48 11;www.visana.ch/de/partner/leistungserbringer/edi.html;peter.depping@visana.ch;7.601E+12;7.601E+12;Visana Services AG;KVG;Ja;Ja;an MediPort angeschlossen
+Sanagate AG;;Postfach 4020;;6002;Luzern;;www.sanagate.ch;leistungserbringer.de@sanagate.ch;7.601E+12;7.601E+12;Sanagate;KVG;Ja;Nein;an MediPort angeschlossen
+Sanavals;;Postfach 18;;7132;Vals;081 935 11 44;www.sanavals.ch;info@sanavals.ch;7.601E+12;7.601E+12;sanavals;KVG;Ja;Ja;an MediPort angeschlossen
+Sanitas Krankenversicherung;;Jägergasse 3;Postfach 2010;8021;Zürich;044 298 63 00;www.sanitas.com;HIN.Inbox-partner@swisscom.com;7.601E+12;7.601E+12;Sanitas Krankenversicherung;KVG;Ja;Ja;an MediPort angeschlossen
+Schweizerische Mobiliar Versicherungsgesellschaft AG;;Bundesgasse 35;Postfach 8726;3001;Bern;031 389 61 11;www.mobi.ch;le-anbindung@centrisag.ch;7.601E+12;7.601E+12;Mobiliar;UVG;Ja;X;an MediPort angeschlossen
+Société d'assurance dommages FRV SA;;Avenue des Jordils 1;;1000;Lausanne;021 966 99 99;www.prometerre.ch;sad@prometerre.ch;7.601E+12;2.1E+12;MediPort Druckcenter;KVG;Nein;Nein;nicht an MediPort angeschlossen
+sodalis gesundheitsgruppe;;Balfrinstrasse 15;;3930;Visp;027 948 14 00;www.sodalis.ch;info@sodalis.ch;7.601E+12;7.601E+12;sodalis gesundheitsgruppe;KVG;Ja;Ja;an MediPort angeschlossen
+Solida Versicherungen AG;;Saumackerstrasse 35;;8048;Zürich;044 439 59 59;www.solida.ch;kontakt@solida.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Sumiswalder;;Spitalstrasse 47;;3454;Sumiswald;034 432 30 60;www.sumiswalder.ch;roland.sommer@sumiswalder.ch;7.601E+12;7.601E+12;Sumiswalder Krankenkasse;KVG;Ja;Ja;an MediPort angeschlossen
+SUPRA-1846 SA;;Rue des Cèdres 5;;1919;Martigny;0848 848 878;www.supra.ch;cneu@groupemutuel.ch;7.601E+12;7.601E+12;Groupe Mutuel;KVG;Ja;Ja;an MediPort angeschlossen
+Suva;(Alle Agenturen);Fluhmattstr. 1;Postfach;6002;Luzern;041 419 51 11;www.suva.ch;kornel.roesch@suva.ch;7.601E+12;7.601E+12;Suva;UVG;Ja;X;an MediPort angeschlossen
+SVK - Verband;Gemeinschaftsaufgaben KrankenVers.;Muttenstrasse 3;;4502;Solothurn;032 626 57 47;www.svk.org;info@svk.org;7601003......;7.601E+12;;KVG;Ja;Ja;an MediPort angeschlossen
+SWICA Gesundheitsorganisation inkl. FL;;Römerstrasse 38;;8401;Winterthur;052 244 22 33;www.swica.ch;guido.liersch@swica.ch;7.601E+12;7.601E+12;SWICA Gesundheitsorganisation;KVG;Ja;Ja;an MediPort angeschlossen
+SWICA Versicherungen AG (UVG);;Römerstrasse 37;Postfach;8401;Winterthur;052 244 22 33;www.swica.ch;guido.liersch@swica.ch;7.601E+12;7.601E+12;SWICA Versicherungen AG;UVG;Ja;X;an MediPort angeschlossen
+Sympany Versicherungen AG (UVG);;Peter Merian-Weg 4;;4002;Basel;058 262 30 00;www.sympany.ch;le.anbindung@centrisag.ch;7.601E+12;2.1E+12;MediPort Druckcenter;UVG;Nein;X;nicht an MediPort angeschlossen
+Unfallversicherung Stadt Zürich;;Stadelhoferstrasse 33;Postfach;8022;Zürich;044 412 55 00;www.uvz.ch;info@uvz.ch;7.601E+12;7.601E+12;Unfallversicherung Stadt Zürich;UVG;Ja;X;an MediPort angeschlossen
+Vaudoise Générale;;Place de Milan;Case Postale;1001;Lausanne;021 618 80 80;www.vaudoise.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;Vaudoise Générale;UVG;Ja;X;an MediPort angeschlossen
+Visana Services AG;;Weltpoststrasse 19;;3000;Bern 15;031 357 91 11;www.visana.ch/de/partner/leistungserbringer/edi.html;edi@visana.ch;7.601E+12;7.601E+12;Visana Services AG;KVG;Ja;Ja;an MediPort angeschlossen
+Visana Services AG;Leistungszentrum UVG;Weltpoststrasse 19;;3000;Bern 15;031 357 91 11;www.visana.ch;edi@visana.ch;7.601E+12;7.601E+12;Visana Services AG;UVG;Ja;X;an MediPort angeschlossen
+vita surselva;;;Postfach 217;7130;Ilanz;081 925 61 60;www.vitasurselva.ch;vitasurselva@bluewin.ch;7.601E+12;7.601E+12;vita surselva;KVG;Ja;Ja;an MediPort angeschlossen
+vivacare ;;Weltpoststrasse 19;;3000;Bern 15;031 357 68 11;www.visana.ch/de/partner/leistungserbringer/edi.html;edi@visana.ch;7.601E+12;7.601E+12;Visana Services AG;KVG;Ja;Ja;an MediPort angeschlossen
+Vivao Sympany;;Peter Merian-Weg 4;;4002;Basel;058 262 30 00;www.sympany.ch;le.anbindung@centrisag.ch;7.601E+12;7.601E+12;Sympany;KVG;Ja;Ja;an MediPort angeschlossen
+Zurich Versicherungs-Gesellschaft AG;;Hagenholzstrasse 60;;8050;Zürich;044 628 66 32;www.zurich.ch;;7.601E+12;7.601E+12;Zurich Versicherungs-Gesellschaft AG;UVG;Ja;X;an MediPort angeschlossen

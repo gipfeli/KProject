@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<valid-cover covercard-id="6105110000222223412" lib-statut="OK" statut="0" xmlns="http://www.ofac.ch/XEDO">
+	<informations cod-prov="CC" date-valid="2017-03-13" date-validity="2017-03-13" num-val="929167">
+		<info-st>
+			<client assure-id="00002222234" cardholderIdentifier="7569999999502" guarantor-first-name="Prenom Deb test 10" guarantor-last-name="Nom Deb test 10" insuredPersonNumber="80756025719999999950" lang-code="2">
+				<ns1:entity sex="2" xmlns:ns1="http://www.ofac.ch/XEDO/CL/1.9">
+					<last-name>NOM TEST 10</last-name>
+					<first-name>PRENOM TEST 10</first-name>
+					<birth-date>1965-05-25</birth-date>
+					<address>
+						<street>Avenue de Genève</street>
+						<zip>1200</zip>
+						<city>Onex</city>
+						<country>CH</country>
+					</address>
+				</ns1:entity>
+			</client>
+			<insurance>
+				<ofac-id>2571000</ofac-id>
+			</insurance>
+			<agency id="2" nom="Covercard ZH">
+				<address>
+					<street>Fontanastrasse 16</street>
+					<zip>8006</zip>
+					<city>Zurich</city>
+					<country>CH</country>
+				</address>
+				<telecom>
+					<phone international-code="41" local-code="081" number="2522645"/>
+				</telecom>
+			</agency>
+			<cover code="0" lib-court="BA"/>
+			<cover code="1" lib-court="NLP"/>
+			<cover code="2" lib-court="KM"/>
+			<cover code="3" lib-court="UF"/>
+			<cover code="5" lib-court="SP1"/>
+			<cover code="13" lib-court="AAS1"/>
+			<cover code="16" lib-court="UFS"/>
+		</info-st>
+	</informations>
+</valid-cover>
