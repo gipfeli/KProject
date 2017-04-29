@@ -37,7 +37,7 @@ wb = open_workbook(dataname)
 i = 0 # Sheet needed to update, array index!
 sheet = wb.sheet_by_index(i)
 print(sheet.name)
-with open("ReferenzenDB/%s.csv" %(sheet.name.replace(" ","")), "w") as file:
+with open("../ReferenzenDB/%s.csv" %(sheet.name.replace(" ","")), "w") as file:
     writer = csv.writer(file, delimiter = ",")
     print(sheet, sheet.name, sheet.ncols, sheet.nrows)
  
