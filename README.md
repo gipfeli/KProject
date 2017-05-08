@@ -16,11 +16,26 @@ Please wait for a bit more...
 
 First, install [Flyway by BoxFuse](https://flywaydb.org). 
 
-Then use the `flyway migrate` (Check the flyway.conf first), to create the schemas and insert basic infromation (Swiss Insurance companies, Tessiner Code/ICD-10, PLZ, etc.)
+Then use the `flyway migrate` (Check the flyway.conf first), to create the schemas and insert basic infromation (Swiss Insurance companies, Tessiner Code/ICD-10, PLZ, TARMED, Medicine list (updated 27. April 2017) etc.)
 
-Then running `XMLParser.py`(with HIN Client runnning in background), and type the card number in.
+Note: TARMED-List is now stored under tbl_leistung (german only). In case you want other language (italian or french), you can contact me at: [dat(at)gipfeli.info](mailto:dat@gipfeli.info)
+
+## Using the software
+0. Before running the scripts, add a `database.ini` file with correct database connection info in same folder.
+
+```
+[postgresql]
+host=hostname
+database=dbname
+user=username
+password=password
+port=5432
+```
+1. `XMLParser.py`(with HIN Client runnning in background), and type the card number in. That would retrieve patient info from HIN, and insert it into database
+2. `AutoUpdateMedListe.py` will automatically retrieve the Excel file from Federal Office of Public Health, or BaG, and insert data in database (Description, introduced date, SwissmedicNr, GTIN, and selling price)
 
 ## TODO
 
-- Add medicine list
-- Add TARMED dataset
+- New columns in table bhlg_details (Behandlungsdetails), contains "receipt" (which'd contain med_id and quantity and date)
+- Manual create bills (orange sheet) according to DiePost standard.
+
