@@ -8,9 +8,9 @@ A small medical application (card record system) for doctor's office
 - Adding patient's info in local Postgres database
 - Using medicine list from Federal Office of Public Health Switzerland [(BaG)](https://www.bag.admin.ch/bag/en/home.html), directly through [outlet here](http://bag.e-mediat.net/SL2007.Web.External/ShowPreparations.aspx), to get tarif, price and instructions.
 
-## How to Use
+## Updates
 
-Please wait for a bit more...
+- Add Pharmacode support. (Since 1.1.2015, BaG stopped include Pharmacode in their publications. However, some insurance systems hasn't updated/converted the system to use GTIN or Swissmedic-NR., there is still a need for Pharmacode)
 
 ## Creating Your Database
 
@@ -31,8 +31,13 @@ user=username
 password=password
 port=5432
 ```
-1. `XMLParser.py`(with HIN Client runnning in background), and type the card number in. That would retrieve patient info from HIN, and insert it into database
-2. `AutoUpdateMedListe.py` will automatically retrieve the Excel file from Federal Office of Public Health, or BaG, and insert data in database (Description, introduced date, SwissmedicNr, GTIN, and selling price)
+1.1. `XMLParser.py`(with HIN Client runnning in background), and type the card number in. That would retrieve patient info from HIN, and insert it into database
+
+1.2 `AutoUpdateMedListe.py` will automatically retrieve the Excel file from Federal Office of Public Health, or BaG, and insert data in database (Description, introduced date, SwissmedicNr, GTIN, and selling price).
+
+1.3 (optional) `Add_pharma_code.py` will read the old publication of BaG (Jan.2015), compare the Swissmedic.Nr and add the pharmacode accordingly into the database. 
+
+
 
 ## TODO
 
