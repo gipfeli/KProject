@@ -9,7 +9,7 @@ Created on Sat Apr 29 01:24:36 2017
 import urllib.request
 from urllib.error import URLError, HTTPError
 
-# Library to convert Excel to CSV file.
+# Library to read/convert Excel to CSV file.
 from xlrd import open_workbook
 import csv
 
