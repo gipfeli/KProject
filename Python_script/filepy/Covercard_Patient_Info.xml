@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<valid-cover xmlns="http://www.ofac.ch/XEDO" lib-statut="OK" statut="0" covercard-id="6105822000013153710">
+	<informations cod-prov="SS" num-val="693907" date-validity="2017-03-15" date-valid="2017-03-15">
+		<info-st>
+			<client assure-id="20000131537" insuredPersonNumber="80756002900027136005" cardholderIdentifier="7564553191071" guarantor-first-name="DAVID BAO KHIEM" guarantor-last-name="TRAN" lang-code="1">	
+				<ns1:entity xmlns:ns1="http://www.ofac.ch/XEDO/CL/1.9" sex="1">
+					<last-name>TRAN</last-name>
+					<first-name>DAVID BAO KHIEM</first-name>
+					<birth-date>2014-08-29</birth-date>
+					<address>
+						<street>Zügholzstrasse 7</street>
+						<zip>6252</zip>
+						<city>Dagmersellen</city>
+						<country>CH</country>
+					</address>
+				</ns1:entity>
+			</client>
+			<healtcare-net num-prest="000000" lib="Hausarztmodell" code="10"/>
+			<insurance>
+				<ofac-id>290003</ofac-id>
+			</insurance>
+			<agency id="0" nom="CONCORDIA">
+				<address>
+					<street>Stengelmattstrasse 3</street>
+					<zip>6252</zip>
+					<city>Dagmersellen</city>
+					<country>CH</country>
+				</address>
+				<telecom>
+					<phone international-code="41" local-code="062" number="7563160"/>
+				</telecom>
+			</agency>
+			<cover code="0" lib-court="BA"/>
+			<cover code="3" lib-court="UF"/>
+			<cover code="1" lib-court="NLP"/>
+			<cover code="2" lib-court="KM"/>
+		</info-st>
+	</informations>
+</valid-cover>

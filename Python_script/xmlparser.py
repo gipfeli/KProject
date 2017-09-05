@@ -57,8 +57,8 @@ def insertpatient():
 def insertaddress():
     
     sql =   """
-            INSERT INTO adressebuch (adresse, plz) 
-            VALUES (%s,%s) RETURNING adresse_id
+            INSERT INTO adressebuch (adresse_id, adresse, plz) 
+            VALUES (%s,%s,%s)
             """
     return sql;
 
@@ -77,8 +77,12 @@ def connect():
         db_version = cur.fetchone()
         print(db_version)
         
-        cur.execute(sql1, (data['Adresse'], data['PLZ']))
-        adresse_id = cur.fetchone()
+        cur.execute("SELECT adresse_id FROM adressebuch ORDER BY adresse_id DESC LIMIT 1;")
+        adresse_id = cur.fetchone()[0] + 1
+        
+        print(adresse_id)
+        
+        cur.execute(sql1, (adresse_id, data['Adresse'], data['PLZ']))
         
         cur.execute(sql2, (data['Vorname'],data['Nachname'],data['Geschlecht'], 
                                data['Geburtstag'],adresse_id, data['KK-Nummer'], data['AHV-Nummer']))
@@ -107,6 +111,5 @@ if __name__ == '__main__':
     
     sql1 = insertaddress()
     sql2 = insertpatient()
-    print(sql2)
-    
+
     connect()
