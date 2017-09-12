@@ -13,17 +13,12 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def option():
-    print("Search function: type '1' for names, type '2' for KK-Nr")
-    
 
-
-def connect():
+def connect(key,var):
     conn = None
     try:
         params = connection()
 
-        
         logger.debug('Connect to the Postgresql database....')
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
@@ -36,8 +31,15 @@ def connect():
             sql = searchforName()
             logger.debug(sql)
             cur.execute(sql, (var, var))
-        print(cur.fetchall())
         
+#        logger.info(cur.fetchall())
+        
+        row = cur.fetchone()
+        print(row)
+        while row:
+            row = cur.fetchone()
+            print(row)
+            
         conn.commit()
         
         cur.close()
@@ -47,7 +49,7 @@ def connect():
     finally:
         if conn is not None:
             conn.close()
-            logger.debug('Database connection closed.') 
+            logger.debug('Database connection closed.')
             
 def searchforName():
     sql_name = """
@@ -75,7 +77,7 @@ if __name__ == '__main__':
     key = input('Search keywords: ')
     var = '%' + key + '%'
     
-    connect()
+    connect(key,var)
 
 
       
