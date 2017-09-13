@@ -53,7 +53,7 @@ def insertpatient():
     
     sql =   """
             INSERT INTO patient (vorname,nachname,geschlecht,geburtstag,adresse_id,kk_nummer,ahv_nummer) 
-            VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING patient_id
+            VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING patient_id;
             """
     return sql;
 
@@ -62,7 +62,7 @@ def insertaddress():
     
     sql =   """
             INSERT INTO adressebuch (adresse_id, adresse, plz) 
-            VALUES (%s,%s,%s)
+            VALUES (%s,%s,%s);
             """
     return sql;
 
