@@ -83,7 +83,7 @@ if __name__ == '__main__':
     key = input('Search patient: ')
     var = '%' + key + '%'
     
-    searchPatient.connect(key,var)
+    searchPatient.search(key,var)
     print("Enter the ID of the patient: ")
     varID = getPatientID()
     

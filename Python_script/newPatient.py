@@ -67,7 +67,7 @@ def insertaddress():
     return sql;
 
 # Commit the data into database
-def connect():
+def addnew():
     conn = None
     try:
         params = connection()
@@ -118,4 +118,4 @@ if __name__ == '__main__':
     sql2 = insertpatient()
     logger.debug('SQL Patient info: ', sql2)
 
-    connect()
+    addnew()

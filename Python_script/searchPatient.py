@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def connect(key,var):
+def search(key,var):
     conn = None
     try:
         params = connection()
@@ -77,7 +77,7 @@ if __name__ == '__main__':
     key = input('Search keywords: ')
     var = '%' + key + '%'
     
-    connect(key,var)
+    search(key,var)
 
 
       
