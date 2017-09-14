@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def connect(key,var):
+def search(key):
     conn = None
     try:
         params = connection()
@@ -23,6 +23,8 @@ def connect(key,var):
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
         
+        sql = searchOpenCase()
+        cur. execute(sql,(key))
         
         row = cur.fetchone()
         print(row)
@@ -48,3 +50,11 @@ def searchOpenCase():
                WHERE kf.patient_id = %s AND kf.fll_geschlossen = FALSE;
               """
     return sql_opening;
+
+###############################################################################
+
+if __name__ == '__main__':
+
+    key = input('Patient ID: ')
+    
+    search(key)
