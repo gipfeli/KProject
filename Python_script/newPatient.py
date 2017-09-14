@@ -11,6 +11,10 @@ from bs4 import BeautifulSoup
 import requests
 import psycopg2
 
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 # XML-Flie should be in same folder like py-File
 def getdatafromlocal():
     soup = BeautifulSoup(open("ch.ofac.ca.covercard.CaValidationHorizontale.xml", "r", encoding="windows-1252"),"lxml")
@@ -49,7 +53,7 @@ def insertpatient():
     
     sql =   """
             INSERT INTO patient (vorname,nachname,geschlecht,geburtstag,adresse_id,kk_nummer,ahv_nummer) 
-            VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING patient_id
+            VALUES (%s,%s,%s,%s,%s,%s,%s) RETURNING patient_id;
             """
     return sql;
 
@@ -58,40 +62,40 @@ def insertaddress():
     
     sql =   """
             INSERT INTO adressebuch (adresse_id, adresse, plz) 
-            VALUES (%s,%s,%s)
+            VALUES (%s,%s,%s);
             """
     return sql;
 
 # Commit the data into database
-def connect():
+def addnew():
     conn = None
     try:
         params = connection()
 
-        print('Connection to the Postgresql database....')
+        
+        logger.info('Connect to the Postgresql database....')
         conn = psycopg2.connect(**params)
         cur = conn.cursor()
 
-        print('PostgreSQL database Version:')
+        
+        logger.info('PostgreSQL database Version:')
         cur.execute('SELECT version()')
         db_version = cur.fetchone()
-        print(db_version)
+        logger.info(db_version)
         
-        cur.execute("SELECT adresse_id FROM adressebuch ORDER BY adresse_id DESC LIMIT 1;")
+        cur.execute("SELECT adresse_id FROM adressebuch ORDER BY adresse_id DESC LIMIT 1;") #Get the last ID in Addressbook
         adresse_id = cur.fetchone()[0] + 1
-        
-        print(adresse_id)
         
         cur.execute(sql1, (adresse_id, data['Adresse'], data['PLZ']))
         
         cur.execute(sql2, (data['Vorname'],data['Nachname'],data['Geschlecht'], 
-                               data['Geburtstag'],adresse_id, data['KK-Nummer'], data['AHV-Nummer']))
+                           data['Geburtstag'],adresse_id, data['KK-Nummer'], data['AHV-Nummer']))
         patient_id = cur.fetchone()
         conn.commit()
         
-        print('Patient ID: ', patient_id)
+        logger.debug('Patient ID: ', patient_id)
         
-        print('Adresse ID: ', adresse_id)
+        logger.debug('Adresse ID: ', adresse_id)
         
         cur.close()
 
@@ -107,9 +111,11 @@ def connect():
 if __name__ == '__main__':
     
     data = preparedata()
-    print(data)
+    logger.debug(data)
     
     sql1 = insertaddress()
+    logger.debug('SQL Address: ', sql1)
     sql2 = insertpatient()
+    logger.debug('SQL Patient info: ', sql2)
 
-    connect()
+    addnew()
